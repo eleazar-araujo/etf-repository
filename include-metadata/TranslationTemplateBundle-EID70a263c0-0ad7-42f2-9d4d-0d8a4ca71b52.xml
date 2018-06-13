@@ -1,0 +1,45 @@
+<TranslationTemplateBundle xmlns="http://www.interactive-instruments.de/etf/2.0" id="EID70a263c0-0ad7-42f2-9d4d-0d8a4ca71b52" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.interactive-instruments.de/etf/2.0 https://services.interactive-instruments.de/etf/schema/service/service.xsd">
+	<translationTemplateCollections>
+		<LangTranslationTemplateCollection name="TR.missingMandatoryTypeError">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.missingMandatoryTypeError">The element {elementName} is mandatory in this Profile, but it wasn't found.</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	  <LangTranslationTemplateCollection name="TR.recordsWithErrors">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.recordsWithErrors">The metadata record set has {count} record(s) with errors for this assertion.</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	 <LangTranslationTemplateCollection name="TR.systemError">
+		<translationTemplates>
+		 <TranslationTemplate language="en" name="TR.systemError">System error in the Executable Test Suite. Please contact a system administrator. Error information:
+{text}</TranslationTemplate>
+		</translationTemplates>
+	 </LangTranslationTemplateCollection>
+	 <LangTranslationTemplateCollection name="TR.filesWithErrorsMd">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.filesWithErrorsMd">The metadata record set has {count} file(s) with errors for this assertion.</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	  <LangTranslationTemplateCollection name="TR.filesWithErrors">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.filesWithErrors">The dataset has {count} file(s) with errors for this assertion.</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+		<LangTranslationTemplateCollection name="TR.invalidSchema">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.invalidSchema">XML document '{filename}': The file has {count} schema validation error(s).</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	  <LangTranslationTemplateCollection name="TR.xmlSchemaError">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.xmlSchemaError">XML document '{filename}': {error}</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	  <LangTranslationTemplateCollection name="TR.invalidSchemaRecord">
+		 <translationTemplates>
+			<TranslationTemplate language="en" name="TR.invalidSchemaRecord">XML document '{filename}', record '{id}': The file has {count} schema validation error(s).</TranslationTemplate>
+		 </translationTemplates>
+	  </LangTranslationTemplateCollection>
+	</translationTemplateCollections>
+</TranslationTemplateBundle>
